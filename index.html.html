@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUI CHEMICAL | จำหน่ายเคมีภัณฑ์กำจัดยุง สำหรับหน่วยงานราชการ</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+
+    .hero-bg {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    }
+
+    .gold {
+      color: #f59e0b;
+    }
+
+    .bg-gold {
+      background: #f59e0b;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-6px);
+      transition: 0.3s;
+    }
+
+    .shadow-soft {
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Buttons -->
+  <div class="fixed bottom-5 right-5 z-50 flex flex-col gap-3">
+    <a href="https://line.me/ti/p/~rawiyanun1234"
+       class="bg-green-500 text-white px-5 py-3 rounded-full shadow-lg font-medium hover:scale-105 transition">
+       LINE สอบถามราคา
+    </a>
+
+    <a href="tel:0902872630"
+       class="bg-red-500 text-white px-5 py-3 rounded-full shadow-lg font-medium hover:scale-105 transition text-center">
+       โทรด่วน 090-287-2630
+    </a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="bg-white sticky top-0 z-40 border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div>
+        <h1 class="text-2xl font-bold text-slate-900">PUI CHEMICAL</h1>
+        <p class="text-xs text-slate-500">SUPPLIER FOR GOVERNMENT & ORGANIZATIONS</p>
+      </div>
+
+      <div class="hidden md:flex gap-8 text-sm font-medium text-slate-700">
+        <a href="#products" class="hover:text-amber-500">สินค้า</a>
+        <a href="#whyus" class="hover:text-amber-500">จุดเด่น</a>
+        <a href="#quote" class="hover:text-amber-500">ขอใบเสนอราคา</a>
+        <a href="#contact" class="hover:text-amber-500">ติดต่อ</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg text-white">
+    <div class="max-w-7xl mx-auto px-6 py-24 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
+
+      <div>
+        <span class="inline-block bg-amber-500/20 border border-amber-400 text-amber-300 px-4 py-2 rounded-full text-sm mb-6">
+          รับเสนอราคาหน่วยงานราชการทั่วประเทศ
+        </span>
+
+        <h2 class="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+          จำหน่ายเคมีภัณฑ์กำจัดยุง
+          <span class="gold block mt-2">พร้อมส่ง งานด่วนทั่วประเทศ</span>
+        </h2>
+
+        <p class="text-lg text-slate-300 leading-relaxed mb-8">
+          รับจัดหาและจำหน่ายทรายกำจัดลูกน้ำ น้ำยาพ่นยุง และเครื่องพ่นหมอกควัน
+          สำหรับ อบต. เทศบาล โรงเรียน โรงพยาบาล และหน่วยงานราชการ
+          พร้อมบริการออกใบเสนอราคา และจัดส่งทั่วประเทศ
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="https://line.me/ti/p/~rawiyanun1234"
+             class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold transition shadow-lg">
+             ขอใบเสนอราคา
+          </a>
+
+          <a href="tel:0902872630"
+             class="border border-white/30 hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-semibold transition">
+             โทรด่วน
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-5 mt-12">
+          <div>
+            <h3 class="text-3xl font-bold gold">100+</h3>
+            <p class="text-sm text-slate-300">งานจัดส่ง</p>
+          </div>
+
+          <div>
+            <h3 class="text-3xl font-bold gold">24 ชม.</h3>
+            <p class="text-sm text-slate-300">พร้อมเสนอราคา</p>
+          </div>
+
+          <div>
+            <h3 class="text-3xl font-bold gold">ทั่วไทย</h3>
+            <p class="text-sm text-slate-300">จัดส่งได้</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="bg-white/10 rounded-3xl p-8 backdrop-blur shadow-2xl border border-white/10">
+          <img src="162546.jpg" alt="ทรายกำจัดลูกน้ำ"
+               class="rounded-2xl w-full object-cover mb-6">
+
+          <div class="space-y-4">
+            <div class="bg-white/10 p-4 rounded-xl">
+              <p class="text-sm text-slate-300">สินค้าหลัก</p>
+              <h3 class="text-xl font-semibold">ทรายกำจัดลูกน้ำยุงลาย</h3>
+            </div>
+
+            <div class="bg-white/10 p-4 rounded-xl">
+              <p class="text-sm text-slate-300">บริการ</p>
+              <h3 class="text-xl font-semibold">รับเสนอราคา หน่วยงานราชการ</h3>
+            </div>
+
+            <div class="bg-white/10 p-4 rounded-xl">
+              <p class="text-sm text-slate-300">จัดส่ง</p>
+              <h3 class="text-xl font-semibold">งานด่วน พร้อมส่งทั่วประเทศ</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="whyus" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-slate-900 mb-4">
+          ทำไมหน่วยงานเลือกใช้บริการเรา
+        </h2>
+
+        <p class="text-slate-500 text-lg max-w-3xl mx-auto">
+          เรามีประสบการณ์ในวงการเคมีภัณฑ์กำจัดยุง และสามารถจัดหาสินค้าจากโรงงานโดยตรง
+          พร้อมบริการรวดเร็ว รองรับงานราชการทั่วประเทศ
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="bg-slate-50 rounded-3xl p-8 shadow-soft card-hover">
+          <div class="text-5xl mb-5">🏭</div>
+          <h3 class="text-xl font-semibold mb-4">ราคาจากโรงงาน</h3>
+          <p class="text-slate-600 leading-relaxed">
+            เข้าถึงแหล่งสินค้าราคาส่งโดยตรง ลดต้นทุนให้หน่วยงาน
+          </p>
+        </div>
+
+        <div class="bg-slate-50 rounded-3xl p-8 shadow-soft card-hover">
+          <div class="text-5xl mb-5">🚚</div>
+          <h3 class="text-xl font-semibold mb-4">พร้อมส่งทั่วประเทศ</h3>
+          <p class="text-slate-600 leading-relaxed">
+            รองรับงานด่วน ส่งไว พร้อมประสานงานขนส่ง
+          </p>
+        </div>
+
+        <div class="bg-slate-50 rounded-3xl p-8 shadow-soft card-hover">
+          <div class="text-5xl mb-5">📄</div>
+          <h3 class="text-xl font-semibold mb-4">ออกใบเสนอราคาได้</h3>
+          <p class="text-slate-600 leading-relaxed">
+            รองรับการจัดซื้อของหน่วยงานราชการและองค์กร
+          </p>
+        </div>
+
+        <div class="bg-slate-50 rounded-3xl p-8 shadow-soft card-hover">
+          <div class="text-5xl mb-5">🧪</div>
+          <h3 class="text-xl font-semibold mb-4">เชี่ยวชาญสินค้า</h3>
+          <p class="text-slate-600 leading-relaxed">
+            มีประสบการณ์ในสายงานกำจัดยุงและเคมีภัณฑ์โดยตรง
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="py-24 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-slate-900 mb-4">
+          สินค้าหลักของเรา
+        </h2>
+
+        <p class="text-slate-500 text-lg">
+          พร้อมจัดส่ง รองรับทั้งงานปลีก งานโครงการ และหน่วยงานราชการ
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-soft card-hover">
+          <img src="162546.jpg" alt="ทรายกำจัดลูกน้ำ" class="w-full h-72 object-cover">
+
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">ทรายกำจัดลูกน้ำยุงลาย</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              เหมาะสำหรับกำจัดลูกน้ำในแหล่งน้ำขัง ใช้งานง่าย ได้มาตรฐาน
+            </p>
+
+            <a href="https://line.me/ti/p/~rawiyanun1234"
+               class="inline-block bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-amber-500 transition">
+               สอบถามราคา
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-soft card-hover">
+          <img src="162548_0.jpg" alt="น้ำยาพ่นหมอกควัน" class="w-full h-72 object-cover">
+
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">น้ำยาพ่นหมอกควัน</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              สูตรเข้มข้น กำจัดยุงและแมลงบิน เหมาะสำหรับงานควบคุมโรค
+            </p>
+
+            <a href="https://line.me/ti/p/~rawiyanun1234"
+               class="inline-block bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-amber-500 transition">
+               สอบถามราคา
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl overflow-hidden shadow-soft card-hover">
+          <img src="162554.jpg" alt="เครื่องพ่นหมอกควัน" class="w-full h-72 object-cover">
+
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">เครื่องพ่นหมอกควัน</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              เครื่องพ่นมาตรฐาน ใช้งานทนทาน รองรับงานภาคสนาม
+            </p>
+
+            <a href="https://line.me/ti/p/~rawiyanun1234"
+               class="inline-block bg-slate-900 text-white px-6 py-3 rounded-xl hover:bg-amber-500 transition">
+               สอบถามราคา
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section id="quote" class="py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+
+      <div class="bg-slate-900 rounded-[40px] overflow-hidden shadow-2xl">
+
+        <div class="grid lg:grid-cols-2">
+
+          <div class="p-12 text-white">
+            <span class="text-amber-400 font-medium">REQUEST FOR QUOTATION</span>
+
+            <h2 class="text-4xl font-bold mt-4 mb-6 leading-tight">
+              ขอใบเสนอราคา
+              <span class="block text-amber-400">สำหรับหน่วยงานของคุณ</span>
+            </h2>
+
+            <p class="text-slate-300 leading-relaxed mb-8">
+              รองรับงานราชการ อบต. เทศบาล โรงเรียน โรงพยาบาล และองค์กรต่าง ๆ
+              พร้อมบริการตอบกลับรวดเร็ว
+            </p>
+
+            <div class="space-y-4 text-slate-200">
+              <div>✅ พร้อมส่งทั่วประเทศ</div>
+              <div>✅ รองรับงานด่วน</div>
+              <div>✅ ออกใบเสนอราคาได้</div>
+              <div>✅ ให้คำแนะนำสินค้า</div>
+            </div>
+          </div>
+
+          <div class="bg-white p-10">
+
+            <form class="space-y-5">
+
+              <div>
+                <label class="block text-sm font-medium mb-2">ชื่อหน่วยงาน</label>
+                <input type="text" class="w-full border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400">
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium mb-2">ชื่อผู้ติดต่อ</label>
+                <input type="text" class="w-full border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400">
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium mb-2">เบอร์โทรศัพท์</label>
+                <input type="text" class="w-full border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400">
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium mb-2">สินค้าที่ต้องการ</label>
+                <textarea rows="4"
+                          class="w-full border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+              </div>
+
+              <button type="submit"
+                      class="w-full bg-amber-500 hover:bg-amber-600 text-white py-4 rounded-xl font-semibold text-lg transition">
+                ส่งข้อมูลขอราคา
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-slate-100">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl font-bold mb-6 text-slate-900">
+        ติดต่อสอบถามเพิ่มเติม
+      </h2>
+
+      <p class="text-slate-600 text-lg mb-12">
+        พร้อมให้คำปรึกษาและเสนอราคาสำหรับหน่วยงานทั่วประเทศ
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-3xl p-8 shadow-soft">
+          <div class="text-5xl mb-5">📞</div>
+          <h3 class="text-xl font-semibold mb-3">โทรศัพท์</h3>
+          <a href="tel:0902872630" class="text-lg text-amber-600 font-medium">
+            090-287-2630
+          </a>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-soft">
+          <div class="text-5xl mb-5">💬</div>
+          <h3 class="text-xl font-semibold mb-3">LINE</h3>
+          <a href="https://line.me/ti/p/~rawiyanun1234" class="text-lg text-green-600 font-medium">
+            rawiyanun1234
+          </a>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-soft">
+          <div class="text-5xl mb-5">🚚</div>
+          <h3 class="text-xl font-semibold mb-3">บริการจัดส่ง</h3>
+          <p class="text-slate-600">
+            จัดส่งทั่วประเทศไทย
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-10 text-center text-sm">
+    <div class="max-w-7xl mx-auto px-6">
+      © 2026 PUI CHEMICAL | SUPPLIER FOR GOVERNMENT & ORGANIZATIONS
+    </div>
+  </footer>
+
+</body>
+</html>
